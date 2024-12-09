@@ -1,3 +1,25 @@
+
+## Discription
+A new project ,including setting up the project directory, environment variables, and API keys. I demonstrates using Nextjs, TypeScript and Tailwind CSS, and explains configuring the Appwrite SDK for both client and server environments as Backend as a service.
+
+### Technology utilization :
+- Next.js(Client|Server side)
+- TypeScript
+- Tailwind CSS (Magic UI|Aceternity UI|Markdown githut)
+- Appwrite SDK (node Sdk)
+- Zustand (state Management)
+
+### Modeling/Collection Database 
+
+
+### Functionality as StackOver-Flow 
+- Question post(text/image)
+- Solution post(text/image)
+- Vote|Comment on question|solution
+- Authentication
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
