@@ -5,7 +5,7 @@ import { env } from "@/app/env";
 
 //here client is  an instance (just like rope that feaching data from server)
 export const client = new Client();
-
+// console.log(env.appwrite.endpoint,"happy hours")
 client
     .setEndpoint(env.appwrite.endpoint) // Your API Endpoint
     .setProject(env.appwrite.projectId) // Your project ID
