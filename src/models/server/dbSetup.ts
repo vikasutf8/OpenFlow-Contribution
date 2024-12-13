@@ -6,6 +6,7 @@ import createAnswerCollection from './answer.collection'
 import { databases } from './config'
 
 export default async function getOrcreateDB() {
+    // console.log("making error in dbsetup 1")
     try {
         await databases.get(db);
         console.log("database already and connected")
@@ -23,6 +24,7 @@ export default async function getOrcreateDB() {
         } catch (error) {
             console.error("Error on creating db and collection",error)
         }
+
     }
     return databases;
     console.log(databases)

@@ -1,6 +1,6 @@
 
 import {Avatars,Client,Databases,Storage,Users} from 'node-appwrite'
-import { env } from "@/app/env";
+import env from "@/app/env";
 // server to server(backend as service)  || routing  through frontend
 
 //here client is  an instance (just like rope that feaching data from server)

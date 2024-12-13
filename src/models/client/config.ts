@@ -1,5 +1,5 @@
 import { Client, Account, Avatars, Databases, Storage } from "appwrite";
-import { env } from "@/app/env";
+import env from "@/app/env";
 
 export const client = new Client()
   .setEndpoint(env.appwrite.endpoint) // Your API Endpoint
