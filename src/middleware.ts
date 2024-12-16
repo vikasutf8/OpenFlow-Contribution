@@ -4,7 +4,7 @@ import getOrcreateDB from './models/server/dbSetup';
 import getOrCreateStorage from './models/server/storageConfig';
 
 export async function middleware(request: NextRequest) {
-  // Perform database and storage setup asynchronously
+  
   await Promise.all([getOrcreateDB(), getOrCreateStorage()]);
   
   // Proceed with the request
