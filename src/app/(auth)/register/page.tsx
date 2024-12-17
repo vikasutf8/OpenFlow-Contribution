@@ -5,6 +5,7 @@ import { useAuthStore } from '@/store/auth'
 import React from "react";
 
 //UI creativity
+
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
@@ -143,7 +144,7 @@ const  registerPage =  () => {
                     >
                         <IconBrandGithub className="h-4 w-4 text-neutral-800 dark:text-neutral-300" />
                         <span className="text-sm text-neutral-700 dark:text-neutral-300">
-                            GitHub
+                        GitHub
                         </span>
                         <BottomGradient />
                     </button>
